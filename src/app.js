@@ -14,7 +14,6 @@
     this.view = new app.View(this.template)
     this.controller = new app.Controller(this.model, this.view)
   }
-
   function onLoad() {
     var todo = new Todo('todos-vanillajs')
     todo.controller.setView(document.location.hash)
